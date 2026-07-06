@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SnapKeep 지원</title>
+<style>
+  :root {
+    --accent: #34c759;
+    --bg: #ffffff;
+    --text: #1c1c1e;
+    --muted: #6e6e73;
+    --card: #f5f5f7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  header .logo {
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #34c759, #30d158);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 8px;
+  }
+  header p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 22px;
+    margin: 40px 0 16px;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .card h3 {
+    margin: 0 0 8px;
+    font-size: 17px;
+  }
+  .card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 64px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .contact-btn {
+    display: inline-block;
+    margin-top: 8px;
+    background: var(--accent);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 15px;
+  }
+  .contact-btn:hover { text-decoration: none; opacity: 0.9; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">📔</div>
+      <h1>SnapKeep 지원</h1>
+      <p>사진과 함께 남기는 나만의 하루 기록</p>
+    </header>
+
+    <h2>자주 묻는 질문</h2>
+
+    <div class="card">
+      <h3>기록한 사진과 영상은 어디에 저장되나요?</h3>
+      <p>모든 기록은 iCloud를 통해 사용자의 Apple 계정에 안전하게 저장 및 동기화됩니다. SnapKeep 서버는 별도로 존재하지 않으며, 사용자의 사진·영상·글은 오직 iCloud를 통해서만 기기 간에 동기화됩니다.</p>
+    </div>
+
+    <div class="card">
+      <h3>하루에 몇 개의 사진과 영상을 남길 수 있나요?</h3>
+      <p>하루 기록에는 사진 최대 5장, 영상 1개(최대 30초)까지 첨부할 수 있습니다.</p>
+    </div>
+
+    <div class="card">
+      <h3>위젯은 어떻게 추가하나요?</h3>
+      <p>홈 화면을 길게 눌러 위젯 추가 화면으로 이동한 뒤 SnapKeep을 검색하면, 오늘의 기록을 홈 화면에서 바로 확인할 수 있는 위젯을 추가할 수 있습니다.</p>
+    </div>
+
+    <div class="card">
+      <h3>기록을 삭제하면 복구할 수 있나요?</h3>
+      <p>기록 삭제는 되돌릴 수 없습니다. 삭제 전 한 번 더 확인해 주세요.</p>
+    </div>
+
+    <div class="card">
+      <h3>광고가 표시되는 이유는 무엇인가요?</h3>
+      <p>SnapKeep은 무료로 제공되는 앱으로, 서비스 운영을 위해 일부 화면에 광고가 표시됩니다.</p>
+    </div>
+
+    <h2>문의하기</h2>
+    <div class="card">
+      <p>버그 제보, 기능 제안, 기타 문의사항은 아래 이메일로 연락해 주세요. 최대한 빠르게 답변드리겠습니다.</p>
+      <a class="contact-btn" href="mailto:isac9305@gmail.com">이메일 보내기</a>
+    </div>
+
+    <footer>
+      &copy; 2026 Isac Shin. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
